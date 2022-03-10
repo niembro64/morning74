@@ -9,11 +9,6 @@ import FunctionCounter from "./components/FunctionalCounter";
 function App() {
     return (
         <div className="App">
-            <h1>
-                <marquee behavior="" direction="">
-                    test
-                </marquee>
-            </h1>
             <ClassCounter text="hey class"/>
             <FunctionCounter text="hey function"/>
         </div>
