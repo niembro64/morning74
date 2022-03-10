@@ -1,8 +1,10 @@
 // functional
 
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import "bootstrap/dist/cwss/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ClassCounter from "./components/ClassCounter";
+import FunctionCounter from "./components/FunctionalCounter";
 
 function App() {
     return (
@@ -12,7 +14,8 @@ function App() {
                     test
                 </marquee>
             </h1>
-            
+            <ClassCounter text="hey class"/>
+            <FunctionCounter text="hey function"/>
         </div>
     );
 }
